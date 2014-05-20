@@ -6,7 +6,7 @@ modified: 2014-05-11
 category: articles
 tags: [matt]
 image:
-  feature: unsplash_0.jpg
+  feature: Liam_Andrew_Cura.jpg
   credit: Liam Andrew Cura
   creditlink: http://unsplash.com/
 comments: true
