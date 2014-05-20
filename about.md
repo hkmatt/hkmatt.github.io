@@ -2,11 +2,11 @@
 layout: page
 permalink: /about/
 title: About the Jekyll Theme
-tags: [Jekyll, theme, simple, minimal, minimalism, responsive, #yolo]
+tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
 modified: 2013-09-13
 image:
-  feature: Ryan_Schroeder.jpeg
-  credit: Ryan Schoroeder
+  feature: Ryan_Schroeder.jpg
+  credit: Ryan Schroeder
   creditlink: https://www.flickr.com/photos/ryanschroeder/
 ---
 
