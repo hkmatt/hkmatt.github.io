@@ -28,6 +28,6 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 * [Grunt build script]({{ site.url }}/theme-setup/index.html#theme-development) for easier theme development.
 * [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) for search engines
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+<a markdown="0" href="{{ site.url }}/resume" class="btn">View resume</a>
 
 [^1]: Example: *domain.com/category-name/post-title*
