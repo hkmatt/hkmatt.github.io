@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /resume/
-title: Resume
-tags: [Jekyll, theme, simple, minimal, minimalism, responsive, resume]
+permalink: /gallery/
+title: Gallery, a place where all the pictures go
+tags: [Jekyll, theme, simple, minimal, minimalism, responsive, gallery]
 modified: 2013-09-13
 image:
   feature: Ryan_Schroeder.jpg
@@ -10,6 +10,4 @@ image:
   creditlink: https://www.flickr.com/photos/ryanschroeder/
 ---
 
-Hello This is the resume page!
-
-* Bullet Test
+This is the gallery.
