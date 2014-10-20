@@ -1,7 +1,6 @@
 # Site settings
 title: I'm Matt!
-baseurl: "/" 
-url: "http://hkmatt.github.io" # the base hostname & protocol for your site
+baseurl: /
 
 # Build settings
 markdown: kramdown
