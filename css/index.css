@@ -1,0 +1,42 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+.panel {
+    height: 100%;
+    text-align: center;
+}
+.wrap_panel {
+    text-align: center;
+    padding: 20px;
+}
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+#pg0 {
+    background: #ACCEDE;
+}
+#pg1 {
+    background: #FACADE;
+}
+#pg2 {
+    background: #B1A5ED;
+}
+.container {
+    display: block;
+    text-align: center;
+    border: 3px solid #000;
+    width: 200px;
+    background: #FFF;
+    margin: 20px auto 0;
+}
+
+.display {
+    width: 500px;
+    text-align: left;
+    padding-top: 20px;
+    margin: 0 auto;
+}

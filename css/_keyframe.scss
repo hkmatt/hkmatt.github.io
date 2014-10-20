@@ -1,0 +1,30 @@
+@-webkit-keyframes pulsate {
+    0% {
+        opacity:1;      
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@mixin keyframes_slide_right() {
+  @-webkit-keyframes slide_right {
+    0% { opacity:0; left:-200px; top:72px; }
+    50% { opacity: 0; }
+    100% { opacity:1; left:0px; top:0px; }
+  } 
+}
+
+@mixin keyframe($name, $duration, $delay, $iteration, $direction, $tween, $fillmode){
+    -webkit-animation: $name $duration $delay $iteration $direction $tween;
+    -moz-animation: $name $duration $delay $iteration $direction $tween;
+    -o-animation: $name $duration $delay $iteration $direction $tween;
+    animation: $name $duration $delay $iteration $direction $tween;
+    -webkit-animation-fill-mode: $fillmode;
+}
+
+
+

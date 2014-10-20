@@ -1,0 +1,66 @@
+@import 'translate';
+@import 'transform';
+@import 'keyframe';
+
+$h:300px;
+$w:80%;
+
+@include keyframes_slide_right();
+
+.canvas {
+    @extend .rectangle;
+    padding: 10px;
+    width: $w;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+.block {
+    @extend .rectangle;
+    margin: 10px;
+    display: inline-block;
+    background-color: red;
+}
+
+#content {
+    opacity:0;
+    position: relative;
+    font-size: 100px;  
+    font-style: italic;
+    font-weight:bold;
+    font-family:helvetica;
+       color:white;
+    text-align: center; 
+    
+    @include rotate(-20deg);
+    text-shadow: 2px 2px 1px black;
+}
+
+#content {
+    @include keyframe(slide_right, 1.5s, .5s, 1, normal, ease-out, forwards);
+}
+
+#label_1 {
+    @include keyframe(slide_right, 1.5s, .8s, 1, normal, ease-out, forwards);
+}
+
+#label_2 {
+    @include keyframe(slide_right, 1.5s, 1s, 1, normal, ease-out, forwards);
+}
+
+#label_3 {
+    @include keyframe(slide_right, 1.5s, 1.2s, 1, normal, ease-out, forwards);
+}
+
+#frame {
+    height: 600px;
+    width: 100%;
+    background: url("http://i.imgur.com/lkF42u1.jpg");
+    background-position: center;
+}
+
+#label_1, #label_2, #label_3 {
+    @extend #content;  
+    font-size: 50px; 
+    color:white; 
+}
