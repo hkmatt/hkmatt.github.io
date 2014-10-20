@@ -1,14 +1,5 @@
----
-layout: main
----
-
-<div class="container">
-<div class="jumbotron">
-    <h2>{{ page.title }}</h2>
-    <p class="meta">{{ page.date | date_to_string }}</p>
-
-    <div class="post">
-    {{ content }}
-    </div>
-</div>
-</div>
+{% include header.inc.html %}
+{% include default.inc.html %}
+{% include post_list.inc.html %}
+{% include content.inc.html %}
+{% include footer.inc.html %}
