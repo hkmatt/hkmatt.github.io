@@ -1,5 +1,5 @@
 name: Matt Kim
 markdown: redcarpet
 pygments: true
-baseurl: "http://hkmatt.github.io/"
+baseurl: "http://hkmatt.github.io"
 url: "http://hkmatt.github.io/" 
